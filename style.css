@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Tipografia de breaking bad';
+    src: url(breaking_b/Breaking\ Bad.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --fuente-titulos:'Tipografia de breaking bad';
+}
+
+#mapeo, #formulario{
+
+    background-image:url(fondo.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    height: 100vh;
+    align-items:center;
+   
+}
+
+.logo{
+    width: 120px;
+    margin-top: 20px;
+
+}
+
+.poster{
+    display: flex;
+    border-radius: 22px;
+    width: 700px;
+    height: 300px;
+    
+}
+
+
+
+#Tabla{ 
+    background-color: #556b2f;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    height: 200vh;
+    align-items:center;
+}
+
+.letra_ppl{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-right: 0 5px;
+}
+
+.titulo_ppl{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #b3cc57;
+    padding: 5px;
+    border-radius: 5px;
+    margin:0 5px;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    font-size: 20px;
+    justify-content:left;
+    margin-left: 20px;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tabla1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+tr{
+    background-color:#a4c639;
+}
+td{
+    background-color: #a4c639;
+    color: rgb(30, 28, 28);
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid rgb(55, 47, 47);
+    padding: 10px;
+}
+
+td#hank{
+    background-image: url(bre);
+}
+.tabla2{
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.tabla2 tr{
+    background-color: #edc822;
+}
+.tabla2 td{
+    background-color: #edc822;
+    color: rgb(30, 28, 28);
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid rgb(55, 47, 47);
+    padding: 10px;
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: auto;
+    border: 2p solid rgb(29, 14, 14);
+    background-color: #fff9;
+    border-radius: 10px;
+    color:black;
+}
+

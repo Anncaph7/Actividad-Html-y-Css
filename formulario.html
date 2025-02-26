@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="formulario">
+      <h1>Breaking bad - Que comience el juego!</h1>
+        <h3 class="Datos">Datos personales</h3>
+        <form action="formulario.html">
+        <br> Nombre: <input type="text" name="" id="">
+        <br> Apellidos: <input type="text" name="" id="">
+        <br> Dirección: <input type="text" name="" id="">   
+        <br> Código Postal:<input type="number"name="" id="">
+        <br> Calle:<input type="text"name="" id="">
+        <br> Número:<input type="number"name="" id="">
+        <br> Piso:<input type="number"name="" id="">
+        <br> Ciudad: <input type="text"name="" id="">
+        <br> DNI: <input type="number" name="" id=""> Letra: <input type="text" name="" id="">
+        <br> Correo Electrónico: <input type="email" name="" id="">
+        
+        <h3 class="Genero">Seleccionar sexo del usuario</h3>
+
+        <br><input type="radio" name="genero" value="Mujer"> Genero Mujer
+        <br><input type="radio" name="genero" value="Hombre"> Genero Hombre
+
+        <br> <h3 class="Personajes">Selecciona el personaje</h3>
+
+         <select name="Personajes">
+            <option value="1">Seleccionar</option>
+            <option value="2">Jessie Pinkman</option>
+            <option value="3">Walter White</option>
+            <option value="4">Saul Goodman,</option>
+            <option value="5"> Gustavo Fring</option>
+            <option value="6">Pollos Hermanos</option>
+            <option value="7">Otros Personajes</option>
+
+
+
+        </select>
+
+        <br>
+
+        <label for="comentario">Escribe tu comentario si es otro personaje</label><br>
+        <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe tu comentario aquí"></textarea><br>
+
+         </form>
+
+    
+         <form action="raul.rodriguez@proeducaglobal.com">
+
+            <h3 class="envio de datos"> Enviar información</h3>
+            
+           
+            <label for="archivo" class="archivo-file"></label>
+            <input type="file" id="archivo" name="archivo">
+            <button type="submit">Subir</button>
+            <button type="reset" value="borrar">Borrar</button>
+            <button type="submit">Enviar</button>
+
+         </form>
+
+    
+    </div>
+
+    
+
+
+    
+</body>
+</html>
